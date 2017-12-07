@@ -5,4 +5,4 @@ applications:
   command:   node dillinger-cf.js
   buildpack: nsolid_buildpack
   services:
-    - nsolid-storage
+    - nsolid-console

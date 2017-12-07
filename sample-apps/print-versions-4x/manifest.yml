@@ -1,8 +1,8 @@
 ---
 applications:
 - name:      print-versions-4x
-  buildpack: git://github.com/nodesource/nsolid-buildpack-cf
+  buildpack: git://github.com/nodesource/nsolid-buildpack-cf-v3
   memory:    128M
   command:   node server
   services:
-    - nsolid-storage
+    - nsolid-console

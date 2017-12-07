@@ -12,8 +12,9 @@ rm -rf product/*
 echo "unpacking nsolid-console"
 tar -xzf nsolid-console-linux-x64.tar.gz --strip 1 -C product
 
-export NODE_ENV=production
+# set the protocol to http instead of default https
+export NSOLID_CONSOLE_WEB_PROTO="http"
 
 echo "launching nsolid-console"
 cd product
-nsolid bin/nsolid-console
+nsolid nsolid-console.js

@@ -5,4 +5,4 @@ applications:
   memory:    128M
   command:   node server
   services:
-    - nsolid-storage
+    - nsolid-console

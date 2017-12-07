@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 
-# pushes storage/console/some samples using custom manifests (not in git!)
-
-cd nsolid-storage-app
-./setup.sh
-cf push -f manifest-pjm.yml
-cd ..
+# pushes console/some samples using custom manifests (not in git!)
 
 cd nsolid-console-app
 ./setup.sh

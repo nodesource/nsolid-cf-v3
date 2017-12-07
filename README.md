@@ -4,11 +4,11 @@ nsolid-cf - Using N|Solid on Cloud Foundry
 This repository contains sample applications in the `sample-apps` directory
 that use the [Cloud Foundry buildpack for N|Solid][N|Solid buildpack].
 
-Before pushing any apps, you should create the `nsolid-storage` user-provided
-service using the [instructions provided in the buildpack][ups-nsolid-storage].
+Before pushing any apps, you should create the `nsolid-console` user-provided
+service using the [instructions provided in the buildpack][ups-nsolid-console].
 
-After the `nsolid-storage` user-provided service is created and you have the
-N|Solid Storage and Console servers running, you can use `cf push` to push
+After the `nsolid-console` user-provided service is created and you have the
+N|Solid Console server running, you can use `cf push` to push
 the apps to Cloud Foundry.
 
 * `dillinger`
@@ -47,16 +47,10 @@ This repository also contains the following components that allow you to run
 N|Solid servers as Cloud Foundry apps on Pivotal Cloud Foundry, using the
 [Cloud Foundry buildpack for N|Solid][N|Solid buildpack].
 
-* [nsolid-storage-app](nsolid-storage-app/README.md)
-
-  Run the N|Solid Storage server as a Cloud Foundry app, allowing connections
-  from the N|Solid Console and apps built with the Cloud Foundry buildpack for
-  N|Solid.
-
 * [nsolid-console-app](nsolid-console-app/README.md)
 
-  Run the N|Solid Console server as a Cloud Foundry app, connecting to the
-  N|Solid Storage server.
+  Run the N|Solid Console server as a Cloud Foundry app, allowing connections
+  from the apps built with the Cloud Foundry buildpack for N|Solid.
 
 
 General Notes
@@ -68,8 +62,8 @@ on:
 
 * selecting which version of the N|Solid Runtime to use with your app
 
-* creating a user-provided service named `nsolid-storage` which will be used
-  to connect your applications using N|Solid to the N|Solid Storage server
+* creating a user-provided service named `nsolid-console` which will be used
+  to connect your applications using N|Solid to the N|Solid Console server
 
 
 Authors and Contributors
@@ -100,5 +94,5 @@ MIT license. All rights not explicitly granted in the MIT license are reserved.
 See the included [LICENSE.md](LICENSE.md) file for more details.
 
 
-[N|Solid buildpack]: https://github.com/nodesource/nsolid-buildpack-cf
-[ups-nsolid-storage]: https://github.com/nodesource/nsolid-buildpack-cf#user-provided-service-nsolid-storage
+[N|Solid buildpack]: https://github.com/nodesource/nsolid-buildpack-cf-v3
+[ups-nsolid-console]: https://github.com/nodesource/nsolid-buildpack-cf-v3#user-provided-service-nsolid-console
