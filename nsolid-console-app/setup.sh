@@ -4,10 +4,10 @@
 PRODUCT=console
 
 # bundle version
-BUNDLE=3.0.1
+BUNDLE=3.0.2
 
 # version of the product
-VERSION=3.0.1
+VERSION=3.0.2
 
 # name of the tarball that will be uploaded to Cloud Foundry via cf push
 TARBALL=nsolid-$PRODUCT-linux-x64.tar.gz
