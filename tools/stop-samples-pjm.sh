@@ -6,4 +6,5 @@ cf stop  pjm-native
 cf stop  pjm-print-versions-4x
 cf stop  pjm-print-versions-6x
 cf stop  pjm-print-versions-8x
+cf stop  pjm-dillinger
 cf stop  pjm-nsolid-console
