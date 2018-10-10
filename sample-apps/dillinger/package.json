@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "dillinger-cf - Dillinger for Cloud Foundry",
   "dependencies": {
-    "dillinger": "git://github.com/joemccann/dillinger.git"
+    "Dillinger": "github:joemccann/dillinger"
   }
 }
