@@ -19,20 +19,20 @@ the apps to Cloud Foundry.
 
   A simple "Hello, World!" application.
 
-* `print-versions-4x`
+* `print-versions-6x`
 
   Displays the versions of the Node.js and N|Solid Runtime components.
   Specifically selects the version of the N|Solid Runtime that corresponds to
-  the Node.js 4.x Argon LTS line, via the `engines` property in the
+  the Node.js 6.x Boron LTS line, via the `engines` property in the
   `package.json` file.
-
-* `print-versions-6x`
-
-  Same as `print-version-4x`, but uses the Node.js 6.x Boron LTS line
 
 * `print-versions-8x`
 
-  Same as `print-version-4x`, but uses the Node.js 8.x Carbon LTS line
+  Same as `print-version-6x`, but uses the Node.js 8.x Carbon LTS line
+
+* `print-versions-10x`
+
+  Same as `print-version-10x`, but uses the Node.js 8.x Dubnium LTS line
 
 * `native`
 

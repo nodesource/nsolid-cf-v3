@@ -1,8 +1,8 @@
 {
-  "name": "print-versions-4x",
+  "name": "print-versions-10x",
   "version": "1.0.0",
   "engines" : {
-    "node" : "4.x"
+    "node" : "10.x"
   },
   "dependencies": {
   }

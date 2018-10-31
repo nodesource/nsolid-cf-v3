@@ -1,3 +1,6 @@
 {
-  "name": "nsolid-console"
+  "name": "nsolid-console",
+  "engines" : {
+    "node" : "8.x"
+  }
 }
